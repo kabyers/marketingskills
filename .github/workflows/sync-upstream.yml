@@ -1,0 +1,59 @@
+name: Sync from upstream
+
+# Mirrors the skills from coreyhaines31/marketingskills into this repo.
+# Only the paths below are copied; upstream's own workflows, tests and
+# scripts are deliberately left out, so nothing of theirs runs here and
+# the default GITHUB_TOKEN (which may not edit workflow files) is enough.
+
+on:
+  schedule:
+    - cron: "17 9 * * *" # daily, 09:17 UTC
+  workflow_dispatch: # "Run workflow" button for an immediate sync
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+env:
+  UPSTREAM: coreyhaines31/marketingskills
+  SYNC_DIRS: skills tools .claude-plugin
+  SYNC_FILES: LICENSE README.md VERSIONS.md
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream
+        run: git clone --depth 1 "https://github.com/${UPSTREAM}.git" "$RUNNER_TEMP/upstream"
+
+      - name: Copy synced paths
+        run: |
+          set -euo pipefail
+          src="$RUNNER_TEMP/upstream"
+          for dir in $SYNC_DIRS; do
+            mkdir -p "$dir"
+            rsync -a --delete "$src/$dir/" "$dir/"
+          done
+          for file in $SYNC_FILES; do
+            cp "$src/$file" "$file"
+          done
+          echo "UPSTREAM_SHA=$(git -C "$src" rev-parse --short HEAD)" >> "$GITHUB_ENV"
+          echo "UPSTREAM_VERSION=$(jq -r .version "$src/.claude-plugin/plugin.json")" >> "$GITHUB_ENV"
+
+      - name: Commit and push if anything changed
+        run: |
+          set -euo pipefail
+          git add -A $SYNC_DIRS $SYNC_FILES
+          if git diff --cached --quiet; then
+            echo "Already up to date with ${UPSTREAM}@${UPSTREAM_SHA}."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898299+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Sync upstream v${UPSTREAM_VERSION} (${UPSTREAM}@${UPSTREAM_SHA})"
+          git push
