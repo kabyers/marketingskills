@@ -4,61 +4,86 @@ Current versions of all skills. Agents can compare against local versions to che
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
-| ab-testing | 2.0.5 | 2026-11-09 |
-| ad-creative | 2.12.3 | 2026-11-09 |
-| ai-seo | 2.12.1 | 2026-11-09 |
-| analytics | 2.2.3 | 2026-11-09 |
-| aso | 2.0.4 | 2026-11-09 |
-| attribution | 1.1.7 | 2026-11-09 |
-| churn-prevention | 2.0.4 | 2026-11-09 |
-| co-marketing | 2.0.4 | 2026-11-09 |
-| cold-email | 2.2.2 | 2026-11-09 |
-| community-marketing | 2.0.3 | 2026-11-09 |
-| competitor-profiling | 2.1.6 | 2026-11-09 |
-| competitors | 2.3.1 | 2026-11-09 |
-| content-strategy | 2.1.6 | 2026-11-09 |
-| conversion-tracking | 1.0.4 | 2026-11-09 |
-| copy-editing | 2.2.2 | 2026-11-09 |
-| copywriting | 2.3.3 | 2026-11-09 |
-| cro | 2.0.4 | 2026-11-09 |
-| customer-research | 2.0.6 | 2026-11-09 |
-| directory-submissions | 2.1.5 | 2026-11-09 |
-| emails | 2.1.5 | 2026-11-09 |
-| events | 1.0.1 | 2026-11-09 |
-| free-tools | 2.0.4 | 2026-11-09 |
-| image | 2.0.4 | 2026-11-09 |
-| influencer-marketing | 1.4.1 | 2026-11-09 |
-| launch | 2.2.1 | 2026-11-09 |
-| lead-magnets | 2.1.2 | 2026-11-09 |
-| link-building | 1.0.2 | 2026-11-09 |
-| marketing-council | 1.0.1 | 2026-11-09 |
-| marketing-ideas | 2.0.3 | 2026-11-09 |
-| marketing-loops | 1.8.1 | 2026-11-09 |
-| marketing-plan | 1.2.3 | 2026-11-09 |
-| marketing-psychology | 2.0.1 | 2026-11-09 |
-| offers | 1.0.4 | 2026-11-09 |
-| onboarding | 2.0.3 | 2026-11-09 |
-| ads | 2.7.1 | 2026-11-09 |
-| paywalls | 2.1.2 | 2026-11-09 |
-| popups | 2.0.2 | 2026-11-09 |
-| pricing | 2.1.5 | 2026-11-09 |
-| product-marketing | 2.2.1 | 2026-11-09 |
-| programmatic-seo | 2.1.2 | 2026-11-09 |
-| prospecting | 1.5.1 | 2026-11-09 |
-| public-relations | 1.2.2 | 2026-11-09 |
-| referrals | 2.2.2 | 2026-11-09 |
-| reverse-engineer-marketing | 1.1.2 | 2026-11-09 |
-| revops | 2.2.3 | 2026-11-09 |
-| sales-enablement | 2.4.1 | 2026-11-09 |
-| schema | 2.0.3 | 2026-11-09 |
-| seo-audit | 2.2.3 | 2026-11-09 |
-| signup | 2.0.2 | 2026-11-09 |
-| site-architecture | 2.1.1 | 2026-11-09 |
-| sms | 1.1.1 | 2026-11-09 |
-| social | 2.4.3 | 2026-11-09 |
-| video | 2.4.1 | 2026-11-09 |
+| ab-testing | 2.0.7 | 2026-11-09 |
+| ad-creative | 2.12.5 | 2026-11-09 |
+| ai-seo | 2.12.3 | 2026-11-09 |
+| analytics | 2.2.5 | 2026-11-09 |
+| aso | 2.0.6 | 2026-11-09 |
+| attribution | 1.1.9 | 2026-11-09 |
+| churn-prevention | 2.0.6 | 2026-11-09 |
+| co-marketing | 2.0.6 | 2026-11-09 |
+| cold-email | 2.2.4 | 2026-11-09 |
+| community-marketing | 2.0.5 | 2026-11-09 |
+| competitor-profiling | 2.1.8 | 2026-11-09 |
+| competitors | 2.3.3 | 2026-11-09 |
+| content-strategy | 2.1.8 | 2026-11-09 |
+| conversion-tracking | 1.0.6 | 2026-11-09 |
+| copy-editing | 2.2.4 | 2026-11-09 |
+| copywriting | 2.3.5 | 2026-11-09 |
+| cro | 2.0.6 | 2026-11-09 |
+| customer-research | 2.0.8 | 2026-11-09 |
+| directory-submissions | 2.1.7 | 2026-11-09 |
+| emails | 2.1.7 | 2026-11-09 |
+| events | 1.0.3 | 2026-11-09 |
+| free-tools | 2.0.6 | 2026-11-09 |
+| image | 2.0.6 | 2026-11-09 |
+| influencer-marketing | 1.4.3 | 2026-11-09 |
+| launch | 2.2.3 | 2026-11-09 |
+| lead-magnets | 2.1.4 | 2026-11-09 |
+| link-building | 1.0.4 | 2026-11-09 |
+| marketing-council | 1.0.3 | 2026-11-09 |
+| marketing-ideas | 2.0.5 | 2026-11-09 |
+| marketing-loops | 1.8.4 | 2026-11-09 |
+| marketing-plan | 1.2.5 | 2026-11-09 |
+| marketing-psychology | 2.0.3 | 2026-11-09 |
+| offers | 1.0.6 | 2026-11-09 |
+| onboarding | 2.0.5 | 2026-11-09 |
+| ads | 2.7.4 | 2026-11-09 |
+| paywalls | 2.1.4 | 2026-11-09 |
+| popups | 2.0.4 | 2026-11-09 |
+| pricing | 2.1.7 | 2026-11-09 |
+| product-marketing | 2.2.3 | 2026-11-09 |
+| programmatic-seo | 2.1.3 | 2026-11-09 |
+| prospecting | 1.5.3 | 2026-11-09 |
+| public-relations | 1.2.4 | 2026-11-09 |
+| referrals | 2.2.4 | 2026-11-09 |
+| reverse-engineer-marketing | 1.1.4 | 2026-11-09 |
+| revops | 2.2.4 | 2026-11-09 |
+| sales-enablement | 2.4.3 | 2026-11-09 |
+| schema | 2.0.5 | 2026-11-09 |
+| seo-audit | 2.2.5 | 2026-11-09 |
+| signup | 2.0.3 | 2026-11-09 |
+| site-architecture | 2.1.3 | 2026-11-09 |
+| sms | 1.1.3 | 2026-11-09 |
+| social | 2.5.2 | 2026-11-09 |
+| video | 2.4.3 | 2026-11-09 |
 
 ## Recent Changes
+
+### 2.14.9 (2026-11-09)
+
+Skills load for judgement calls too, even with many other skills installed.
+
+- **50 skills** (patch bump each): the "or asks" part of each description now covers the usual judgement calls in its area: choosing between two options ("which promise to lead with", "screen recording or AI avatar"), whether something is okay or fair ("is it fair to say a rival lacks offline mode", "is this markup allowed"), and whether it's enough ("are six directory listings enough"). Lower-value list items were cut to pay for it, so the pack stays at 18,662 characters and all 53 skills keep their descriptions with 90 other skills installed. On judgement-style prompts nobody read while writing the change, the right skill was picked for about 90% (92.5% twice, 89.6% for the shipped wording, from 66.5%) with 90 other skills installed and 95.3% (from 85.8%) with the pack alone, with no false triggers. programmatic-seo, revops, and signup are unchanged.
+- **Trigger eval**: a fourth held-out set (`heldout4.json`, judgement-style), used unread to judge this change.
+
+### 2.14.8 (2026-11-09)
+
+Skills now load for advice and judgement questions, not just requests to make something.
+
+- **Every skill** (patch bump each): each description now names the questions the skill answers ("or asks whether a result is real, when to stop a test, or which version won") next to what it makes. Descriptions that only said "write", "plan", or "create" lost questions like "should we say they lack SSO?" or "where would you look for buyers?": the model answered from general knowledge instead of loading the skill. Total 18,676 characters (from 19,259), so all 53 skills keep their descriptions even with 90 other skills installed (2 dropped before). On a judgement-style test set nobody read while writing the change, the right skill was picked for 87.7% of prompts (from 73.6%) with the pack alone and 73.6% (from about 60%) with 90 other skills installed. Advice-style prompts with other skills installed went from about 84% to 94%, and the original set reaches 100% alone.
+- **Trigger eval**: two more held-out sets (`heldout2.json` advice-style, `heldout3.json` judgement-style), seven `heldout.json` prompts now include the material they mention, and missed rows record the model's reply. The README covers run-to-run noise (about plus or minus 4 points on crowded runs) and when to use `--repeat`.
+
+### 2.14.7 (2026-11-09)
+
+- **social** (2.4.3 → 2.5.0): new `references/ship-post.md` for build-in-public posts that start from the commit log (closes #833, by @thiguillaumat-art). It reads the git log and diff since a ref, asks the developer one question (what was annoying or impossible before, and what's different now), picks the one user-visible change, leads with the user's pain rather than the implementation, and drafts one X post and one subreddit post. Hard rules: no number that isn't in the commits, the diff or the developer's answer; no claims about user behaviour nobody reported; flag a user sentence the code doesn't support; drafts only; say so when the week was only chores. SKILL.md links it next to the No AI Tells section, and the description gains a build-in-public trigger. New evals (ids 11–14).
+
+### 2.14.6 (2026-11-09)
+
+The ads operating check now defines "normal variance" as the trailing 6-8 period range, so a single period-over-period swing no longer triggers a change.
+
+- **ads** (2.7.1 → 2.7.2): the operating check pulls the trailing 6-8 periods, calls HOLD when a metric sits inside that range, and treats three or more periods moving the same way as a real movement. Spend, tracking, and broken-page problems, and target-based stop thresholds such as cost per qualified lead above 1.5× TCPL, skip the range gate.
+- **marketing-loops** (1.8.1 → 1.8.2): the loop catalog applies the same trailing-range baseline to its performance loops.
 
 ### 2.14.5 (2026-11-09)
 
